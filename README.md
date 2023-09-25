@@ -14,4 +14,4 @@ On your Discourse site:
 
 For more information visit: [Install a theme or theme component](https://meta.discourse.org/t/install-a-theme-or-theme-component/63682).
 
-If you have questions contact https://github.com/deadpine
+If you have questions contact [@deadpine](https://github.com/deadpine).
