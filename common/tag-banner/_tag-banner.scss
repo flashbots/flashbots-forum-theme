@@ -1,0 +1,25 @@
+$banners: ".tab-banner-the-mev-letter";
+
+@each $tag in $banners {
+  div.tag-title-header:not(#{$tag}) {
+    display: none;
+  }
+}
+
+div.tag-title-contents > h1:first-child {
+  display: none;
+}
+
+div.tag-title-header {
+  & > div.tag-title-contents {
+    padding: 0.7em 0;
+  }
+
+  p {
+    font-size: large;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
