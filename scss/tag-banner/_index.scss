@@ -1,9 +1,12 @@
-$banners: ".tab-banner-the-mev-letter";
+$tags: "the-mev-letter";
+$classes: null;
 
-@each $tag in $banners {
-  div.tag-title-header:not(#{$tag}) {
-    display: none;
-  }
+@each $tag in $tags {
+  $classes: append($classes, ".tag-banner-#{$tag}", comma)
+}
+
+div.tag-title-header:not(#{$classes}) {
+  display: none;
 }
 
 div.tag-title-contents > h1:first-child {
