@@ -1,18 +1,14 @@
-$tags: "the-mev-letter";
-$classes: null;
-
-@each $tag in $tags {
-  $classes: append($classes, ".tag-banner-#{$tag}", comma)
-}
-
-div.tag-title-header:not(#{$classes}) {
+// Hide banners without content
+div.tag-banner-container:has(h1:first-child + p:last-child:empty) {
   display: none;
 }
 
+// Hide tag name in banner
 div.tag-title-contents > h1:first-child {
   display: none;
 }
 
+// Banner basic style
 div.tag-title-header {
   & > div.tag-title-contents {
     padding: 0.7em 0;
