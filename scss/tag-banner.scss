@@ -8,14 +8,27 @@ div.tag-title-contents > h1:first-child {
   display: none;
 }
 
+// Move icon to a different component & enlarge
+div.tag-title-header::before {
+    content: "✉️";
+    font-size: large;
+    margin-right: .5rem;
+}
+
 // Banner basic style
 div.tag-title-header {
+  align-items: center;
+  border-radius: 1rem;
+  
   & > div.tag-title-contents {
-    padding: 0.7em 0;
+    padding: 1em 0;
   }
 
   p {
-    font-size: large;
+
+    a {
+      font-weight: bold;
+    }
 
     &:last-child {
       margin-bottom: 0;
