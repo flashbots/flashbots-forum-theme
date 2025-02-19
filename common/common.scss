@@ -34,7 +34,7 @@ h6 {
 .d-header {
   height: 3.5em;
   box-shadow: none;
-  background: var(--secondary);
+  background: none;
   border-bottom: 1px solid var(--primary-100);
   .d-icon {
     color: var(--header_primary-medium);
@@ -42,6 +42,15 @@ h6 {
 }
 .header-buttons .btn-primary .d-icon {
   color: var(--secondary);
+}
+
+// Main container
+#main-outlet {
+  background: var(--secondary);
+  margin-top: 1rem;
+  border-radius: 1.5rem;
+  padding: 1.5rem;
+  box-shadow: 0 6px 20px #0000001c;
 }
 
 // Buttons
