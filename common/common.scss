@@ -283,6 +283,9 @@ tbody {
 
 // Category view //
 .category-list {
+  .with-topics {
+    margin-left: 0;
+  }
   .category-name {
     font-weight: normal;
     font-size: var(--font-up-1);
