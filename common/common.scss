@@ -200,10 +200,9 @@ h6 {
 // Table view //
 tr, .topic-list-item {
   border-bottom: 1px solid var(--primary-100);
-  background: rgba(255, 255, 255, .03);
-  // Visited topics
+  // background: rgba(255, 255, 255, .03); (custom background)
   &.visited {
-    background: rgba(24, 25, 27, .03);
+    background: rgba(146, 152, 160, .09);
     border-bottom: 1px solid var(--primary-50);
     opacity: .8;
   }
