@@ -320,6 +320,18 @@ aside.onebox {
   }
 }
 
+//Tag filter selected
+.select-kit.combo-box.tag-drop.has-selection .tag-drop-header {
+  border-color: var(--tertiary-high);
+  background: var(--tertiary-high);
+  .name {
+    color: white;
+  }
+  .caret-icon {
+    color: white;
+  }
+}
+
 // Category boxes 
 .category-boxes {
   grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
