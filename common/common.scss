@@ -242,6 +242,7 @@ thead.topic-list-header {
 tbody {
   border-top: none;
 }
+
 .topic-list {
   // box-shadow: 0 6px 16px #0000001f;
   // border-radius: 0.5rem;
@@ -530,6 +531,24 @@ aside.onebox {
     }
   }
 }
+
+
+// Topic view
+.topic-avatar {
+  border-top: none;
+  padding: 2em 0 0 0;
+  padding-right: 1rem;
+  width: 2rem;
+  height: 2rem;
+  img.avatar {
+    width: 40px;
+    height: 40px;
+  }
+} 
+.topic-body {
+  padding: 2em 0 0 0;
+}
+
 
 // Footer
 footer {
