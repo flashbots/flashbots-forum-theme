@@ -51,6 +51,7 @@ h6 {
   border-radius: 1.5rem;
   padding: 1.5rem;
   box-shadow: 0 6px 20px #00000011;
+  margin-bottom: 2rem;
 }
 
 // Buttons
@@ -557,11 +558,8 @@ footer {
   font-weight: 400;
   font-size: var(--font-0);
   color: var(--primary-600);
-  .links { 
-    padding: 2rem 0 0.5rem;
-    p { 
-      margin: 0;
-    }
+  .links p { 
+    margin: 0;
   }
 }
 
